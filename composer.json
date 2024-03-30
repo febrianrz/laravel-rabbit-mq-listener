@@ -1,0 +1,29 @@
+{
+    "name": "alterindonesia/rabbit-mq",
+    "description": "Rabbit MQ Provider",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alterindonesia\\RabbitMQ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@developer.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "php-amqplib/php-amqplib": "^3.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Alterindonesia\\RabbitMQ\\AlterindonesiaRabbitMQServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
