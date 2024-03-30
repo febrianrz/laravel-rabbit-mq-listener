@@ -39,3 +39,12 @@ $rabbit->publish(
 $listener = new Alterindonesia\RabbitMQ\Services\RabbitMQConsumerService();
 $listener->listen('queue_name');
 ```
+
+or with command
+```php
+php artisan alter:mq-consume {--routing=} {--exchange=} {--queue=}
+```
+
+## License
+This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```

@@ -13,7 +13,7 @@ class RabbitMQConsumeCommand extends Command
      * @var string
      */
     // using optional arguments
-    protected $signature = 'alter:mq-consume {--routing=} {--exchange=} {--queue=} {--listener-type=}';
+    protected $signature = 'alter:mq-consume {--routing=} {--exchange=} {--queue=}';
 
     /**
      * The console command description.
